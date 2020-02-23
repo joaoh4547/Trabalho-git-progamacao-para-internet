@@ -4,3 +4,47 @@
 	text-decoration:none;
 	font: 12px;
 }
+#Menu{
+	background-color: #053E58;
+	height: 35pt;
+	padding: 7px;
+	margin-bottom: 25px;
+}
+#Menu ul{
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+#Menu ul li{
+	display: inline;
+}
+#Menu ul li a {
+	margin-top: 7pt;
+    padding: 8px 20px;
+    display: inline-block;
+    color: #fff;
+	text-decoration: none;
+	border-radius: 5px;
+	margin-right: 2px;
+}
+
+#Menu ul li a:hover{
+	transition: linear 0.5s;
+	background-color: #032636;
+}
+.Imagem{
+	height: 100px;
+	width: auto;
+	padding: 20px;
+}
+.Icon{
+	float: right;
+	width: 50px;
+	margin-top: -100px;
+	margin-right: 16px;
+}
+#Principal{
+	background-color: #148AB6;
+	height: 200pt;
+}
