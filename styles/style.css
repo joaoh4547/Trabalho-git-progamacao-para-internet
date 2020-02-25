@@ -88,7 +88,7 @@ body{
 	padding: 8px;
 	text-indent: 18px;
 }
-.Bloco p a:visited,.Bloco p a:link{
+.Bloco p a:visited,.Bloco p a:link,.Conteudo p a:link,.Conteudo p a:visited{
 	color: white;
 }
 .Bloco p a:hover{
@@ -120,6 +120,28 @@ body{
 	border: solid 2px white;
 	border-radius: 5px;
 	padding: 12px;
+}
+.Conteudo{
+	overflow: hidden;
+}
+.Conteudo h2{
+	text-align: center;
+}
+
+.Conteudo img{
+	position: relative;
+	width: 24%;
+	float: left;
+	margin-right: 19px;
+	margin-bottom: 5px;
+	margin-left: 8px;
+	margin-top: 15px	;
+}
+.Conteudo p{
+	font-size: 22px;
+	text-align: justify;
+	text-indent: 50px;
+	padding: 7px;
 }
 #Lateral{
 	float :right;
