@@ -1,28 +1,43 @@
+@charset "utf-8";
 *{
 	margin: 0px;
 	padding: 0px;
 	text-decoration:none;
 	font: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+body{
+	background-color: #c2e8f2;
+}
+#Menu h1{
+	float: left;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	display: block;
+	margin: -9px;
+	padding: 10px;
+	color: white;
 }
 #Menu{
 	background-color: #053E58;
 	height: 35pt;
 	padding: 7px;
-	margin-bottom: 25px;
+	margin-bottom: 10px;
+	overflow:hidden;
 }
 #Menu ul{
 	text-align: center;
 	padding: 0px;
 	margin: 0px;
+	margin-right: 150px;
 	list-style: none;
 }
 #Menu ul li{
-	display: inline;
+	display: inline-block;
 }
 #Menu ul li a {
 	margin-top: 7pt;
     padding: 8px 20px;
-    display: inline-block;
+	display:inline-block;
     color: #fff;
 	text-decoration: none;
 	border-radius: 5px;
@@ -33,18 +48,67 @@
 	transition: linear 0.5s;
 	background-color: #032636;
 }
-.Imagem{
-	height: 100px;
-	width: auto;
-	padding: 20px;
-}
-.Icon{
-	float: right;
-	width: 50px;
-	margin-top: -100px;
-	margin-right: 16px;
+#Interface{
+	width: 98%;
+	margin: auto;
+	
 }
 #Principal{
+
 	background-color: #148AB6;
-	height: 200pt;
+	height: 300pt;
+	width: 100%;
+	margin: auto;
+	padding: 5px;
+	margin-bottom: 50px;
+}
+#Interface #Conteudos{
+	margin: auto;
+	float: left;
+	background-color: #4f99ab;
+	width: 80%;
+	color: white;
+	padding: 10px;
+	
+}
+.Container{
+	width: 100%;
+	margin:10px ;
+	
+}
+.Bloco{
+	padding: 10px;
+	color: white;
+	float: left;
+	width: 19.5%;
+	height: 360px;
+	background-color:rgba(10, 69, 90,0.5) ;
+	margin-left: 159px;
+	border-radius: 15px;
+	text-align: center;
+}
+.Bloco img{
+	width: 320px;
+	height: auto;
+	cursor: pointer;
+}
+.Bloco p{
+	text-align: justify;
+	padding: 8px;
+	text-indent: 18px;
+}
+.Bloco p a:visited,.Bloco p a:link{
+	color: white;
+}
+.Bloco p a:hover{
+	text-decoration-line: underline;
+	color: lightblue;
+}
+.Bloco img:hover{
+	transition: linear 0.05s;
+	width: 340px;
+}
+.Tags-Principais{
+	font-weight: bold;
+	font-style: italic;
 }
