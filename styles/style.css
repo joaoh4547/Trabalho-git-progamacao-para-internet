@@ -48,3 +48,41 @@
 	background-color: #148AB6;
 	height: 200pt;
 }
+#banner{
+	background-color: #053E58;
+	height: 130px;
+	margin: 0 auto;
+}
+#banner h1{
+	font-family: arial, sans-serif;
+	text-align: center;
+	color: white;
+	padding: 45px;
+}
+#menu ul{
+	background: #CCC;
+	margin: 0 auto;
+	list-style: none;
+	margin-top: 8px;
+	text-align: center;
+}
+#menu ul li{
+	display: inline;
+}
+#menu ul li a{
+	padding: 10px 10px;
+	display: inline-block;
+}
+#menu ul li a:hover{
+	transition: linear 1s;	
+	color: #3d3b3b;
+}
+nav a:visited{
+	text-decoration: none;
+}
+#conteudo{
+	background: #ccc;
+	margin-top: 10px;
+	height: 600px;
+	width: 1000px;
+}
