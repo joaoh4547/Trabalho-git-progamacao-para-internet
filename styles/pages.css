@@ -1,0 +1,26 @@
+.Conteudo img{
+    width: 29%;
+    height: auto;
+}
+.Conteudo h2{
+    padding: 25px;
+    font-weight: 500;
+    font-style: italic;
+    font-size: 30px;
+}
+#Interface{
+    margin: auto;
+}
+#Interface #Conteudos{
+    margin: auto;
+    width: 99%;
+}
+#Conteudos .Conteudo{
+    padding: 25px;
+}
+.Conteudo p{
+    font-size: 25px;    
+}
+.Conteudo #pag h2{
+   font-size: 50px;
+}
