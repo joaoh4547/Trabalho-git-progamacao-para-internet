@@ -1,5 +1,4 @@
-/*
-*
-* File for modyfication of styles and create animations
-*
-*/
+function Aumentar(obj){
+    obj.height=500
+    alert('entou')
+}
