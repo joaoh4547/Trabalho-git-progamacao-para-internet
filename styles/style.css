@@ -62,15 +62,6 @@ body{
 	padding: 5px;
 	margin-bottom: 50px;
 }
-#Interface #Conteudos{
-	margin: auto;
-	float: left;
-	background-color: #4f99ab;
-	width: 80%;
-	color: white;
-	padding: 10px;
-
-}
 .Container{
 	width: 100%;
 	margin:10px ;
@@ -111,4 +102,37 @@ body{
 .Tags-Principais{
 	font-weight: bold;
 	font-style: italic;
+}
+#Interface #Conteudos{
+	margin: auto;
+	float: left;
+	background-color: #4f99ab;
+	width: 70%;
+	color: white;
+	padding: 10px;
+
+}
+
+#Conteudos .Conteudo{
+	background-color: #41c7e8;
+	width: 95%;
+	margin: auto;
+	border: solid 2px white;
+	border-radius: 5px;
+	padding: 12px;
+}
+#Lateral{
+	float :right;
+	background-color: #4f99ab;
+	width: 22%;
+	color:white;
+	padding: 10px;
+}
+#Lateral .Conteudo{
+	background-color: #41c7e8;
+	width: 90%;
+	margin: auto;
+	border: solid 2px white;
+	border-radius: 5px;
+	padding: 12px;
 }
