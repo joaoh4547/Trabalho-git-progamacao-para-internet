@@ -112,6 +112,10 @@ body{
 	padding: 10px;
 
 }
+#Conteudos h1{
+	margin-left: 10px;
+
+}
 
 #Conteudos .Conteudo{
 	background-color: #41c7e8;
@@ -158,4 +162,9 @@ body{
 	border: solid 2px white;
 	border-radius: 5px;
 	padding: 12px;
+}
+
+.title {
+	float: left;
+	margin-top: 20px;
 }
