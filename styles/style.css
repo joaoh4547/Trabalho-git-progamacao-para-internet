@@ -105,13 +105,13 @@ body{
 }
 #Interface #Conteudos{
 	margin: auto;
-	float: left;
 	background-color: #4f99ab;
-	width: 70%;
+	width: 85%;
 	color: white;
 	padding: 10px;
 
 }
+
 #Conteudos h1{
 	margin-left: 10px;
 
@@ -119,14 +119,17 @@ body{
 
 #Conteudos .Conteudo{
 	background-color: #41c7e8;
-	width: 95%;
+	width: 85%;
 	margin: auto;
-	border: solid 2px white;
-	border-radius: 5px;
+	border: solid 3px white;
+	border-radius: 10px;
 	padding: 12px;
+	margin-bottom: 50px;
+	margin-top: 30px;
 }
 .Conteudo{
 	overflow: hidden;
+
 }
 .Conteudo h2{
 	text-align: center;
