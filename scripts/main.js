@@ -1,4 +1,5 @@
-function Aumentar(obj){
-    obj.height=500
-    alert('entou')
+function ValidateMensagem(obj) {
+        if (obj.length>300){
+                alert("Quantidade de caracteres exedida !!!")
+        }
 }
