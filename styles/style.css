@@ -156,11 +156,12 @@ img{
 }
 
 .title{
-	float: left;
 	margin-top: 20px;
+	float: left;
 }
 
 .titulo{
+	margin-top: 30px;
 	text-align: center;
 	margin-left: 200px;
 	width: 900px;
@@ -175,6 +176,22 @@ img{
 	font-family: arial, sans-serif;
 	font-size: 25px
 }
+
+.subtexto p{
+	margin-top: 20px;
+	width: 300px;
+	float: right;
+	margin-right: 15px;
+	text-align: left;
+	font-family: arial;
+	font-size: 20px;
+}
+.imagem{
+	margin-top: 20px;
+	margin-left: 350px;
+	margin-right: 300px;
+}
+
 #Rodape{
 	color: #c8c8c8;
 	margin-top: 20px;
@@ -226,4 +243,8 @@ button{
 	background-color: rgb(56, 150, 228);
 	color: white;
 	cursor: pointer;
+
+div a:visited{
+	text-decoration: none;
+	color:black;
 }
